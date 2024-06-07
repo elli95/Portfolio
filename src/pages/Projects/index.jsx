@@ -12,10 +12,10 @@ function Projects() {
         <h2 className="text-2xl">{title}</h2>
         <p className="text-lg sm:h-28">{text}</p>
         <div className="flex flex-wrap justify-around text-lg gap-2.5 pt-2.5 sm:pt-0">
-          <a href={hrefGit} target="_blank" rel="noreferrer" className="flex items-center gap-1">
+          <a href={hrefGit} target="_blank" rel="noreferrer" className="flex items-center gap-1 transform transition duration-500 hover:scale-125">
             <Icon icon="icon-park:github" /> GitHub Repository
           </a>
-          <a href={hrefSite} target="_blank" rel="noreferrer" className="flex items-center gap-1">
+          <a href={hrefSite} target="_blank" rel="noreferrer" className="flex items-center gap-1 transform transition duration-500 hover:scale-125">
             <Icon icon="mdi:internet" /> Website
           </a>
         </div>

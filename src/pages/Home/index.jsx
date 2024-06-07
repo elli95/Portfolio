@@ -6,14 +6,14 @@ import OpenPDF from "../../components/OpenPDF";
 
 function Home() {
   const Skills = ({ href, icon, text }) => (
-    <a href={href} target="_blank" rel="noreferrer" className="grid justify-items-center w-20">
+    <a href={href} target="_blank" rel="noreferrer" className="grid justify-items-center w-20 transform transition duration-500 hover:scale-125">
       <Icon icon={icon} className="text-5xl" />
       <h3>{text}</h3>
     </a>
   );
 
   const SkillsList = () => (
-    <div className="flex flex-wrap justify-center gap-5">
+    <div className="flex flex-wrap justify-center gap-5 max-w-500 lg:max-w-none">
       {skillsData.map((skill) => (
         <Skills key={skill.text} {...skill} />
       ))}
@@ -22,14 +22,14 @@ function Home() {
 
   return (
     <section className="flex justify-center">
-      <div className="flex flex-col items-center bg-white rounded-lg mt-10 p-4 shadow-card justify-evenly sm:w-11/12 xl:w-9/12">
+      <div className="flex flex-col items-center bg-white rounded-lg mt-10 p-4 shadow-card justify-center sm:w-11/12 xl:w-9/12">
         <div className="flex flex-col-reverse items-center lg:flex-row lg:justify-center lg:gap-5">
-          <div className="flex flex-col gap-5 text-lg w-11/12 max-w-md text-center sm:flex flex-col gap-5 sm:w-10/12 lg:w-3/5 lg:w-2/5 lg:text-start">
+          <div className="flex flex-col gap-5 text-lg w-11/12 max-w-md text-center sm:flex flex-col gap-5 sm:max-w-435 lg:text-start">
             <h1 className="text-2xl font-semibold">Front-end Developer</h1>
             <h2>Hello! I'm Elise Marie Hogsnes, a Front-end Developer with a passion for coding, based in Tønsberg, Norway.</h2>
             <div className="flex flex-wrap justify-center lg:justify-start gap-2.5">
               <a href="https://github.com/elli95" target="_blank" rel="noreferrer" className="flex items-center gap-1 text-3xl" aria-label="Github">
-                <Icon icon="icon-park:github" />
+                <Icon icon="icon-park:github" className="transform transition duration-500 hover:scale-125" />
               </a>
               <a
                 href="https://www.linkedin.com/in/elise-marie-hogsnes-77b13b1aa/?original_referer="
@@ -38,7 +38,7 @@ function Home() {
                 className="flex items-center gap-1 text-3xl"
                 aria-label="Linkedin"
               >
-                <Icon icon="devicon:linkedin" />
+                <Icon icon="devicon:linkedin" className="transform transition duration-500 hover:scale-125" />
               </a>
               <OpenPDF />
             </div>
@@ -47,7 +47,7 @@ function Home() {
             <img className="object-center object-me-center" src={profile} alt="Elise Marie Hogsnes" />
           </div>
         </div>
-        <p className="text-lg pt-5">| Tech Stack |</p>
+        <p className="text-lg pt-5 pb-2.5 font-semibold">| Tech Stack |</p>
         <SkillsList />
       </div>
     </section>

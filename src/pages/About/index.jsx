@@ -20,10 +20,10 @@ function About() {
 
   return (
     <section className="flex justify-center">
-      <div className="flex flex-col items-center bg-white rounded-lg mt-10 p-4 shadow-card justify-evenly sm:w-11/12 xl:w-9/12">
-        <h2 className="text-2xl font-semibold">About Me</h2>
+      <div className="flex flex-col items-center bg-white rounded-lg mt-10 p-4 py-7 shadow-card justify-center sm:w-11/12 xl:w-9/12">
+        <h2 className="text-2xl font-semibold pb-2.5">About Me</h2>
         <div className="flex flex-col items-center lg:flex-row-reverse lg:justify-center lg:gap-5">
-          <div className="flex flex-col gap-5 text-lg w-11/12 sm:flex flex-col gap-5 sm:w-10/12 lg:w-3/5 lg:w-2/5">
+          <div className="flex flex-col gap-5 text-xl w-11/12 sm:flex flex-col gap-5 sm:w-10/12 lg:w-3/5 lg:w-2/5">
             <p>Greetings! I'm Elise Marie Hogsnes, a passionate Front-end Developer from Tønsberg, Norway.</p>
             <p>
               I am a structured and solution-oriented individual who loves learning new things. With experience in React, Tailwind CSS, and JavaScript
@@ -38,7 +38,10 @@ function About() {
             <p>
               I recently graduated in front-end development from Noroff - School of Technology and Digital Media. And I am currently on the lookout
               for new opportunities to apply my skills to engaging projects and work with other passionate professionals. If you're in need of a
-              front-end developer who is dedicated to excel, let's get in <a href="#contact">touch!</a>
+              front-end developer who is dedicated to excel, let's get in{" "}
+              <a href="#contact" className="hover:underline">
+                touch!
+              </a>
             </p>
           </div>
         </div>

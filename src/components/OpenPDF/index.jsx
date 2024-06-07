@@ -7,7 +7,9 @@ function OpenPDF() {
 
   return (
     <div>
-      <button onClick={openCV}>CV</button>
+      <button className="font-semibold transform transition duration-500 hover:scale-125 border-2 border-black px-1 rounded" onClick={openCV}>
+        CV
+      </button>
     </div>
   );
 }
