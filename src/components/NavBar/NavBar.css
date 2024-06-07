@@ -1,0 +1,19 @@
+nav {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  background: #333;
+  padding: 1em;
+}
+
+nav ul {
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  margin: 0;
+  padding: 0;
+}
+
+nav a:hover {
+  text-decoration: underline;
+}
