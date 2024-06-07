@@ -30,7 +30,7 @@
 
 ## About The Project
 
-This is the Portfolio Project, made during my second year of education at noroff based on my first portfolio made the first year, spring 2024.
+This is the Portfolio Project, made during my second year of education at Noroff based on my first portfolio made in the first year, spring 2024.
 This website shows a short introduction about myself, my projects and how you can contact me.
 
 View the live version [here](https://elisemariehogsnes.netlify.app/)
@@ -56,7 +56,7 @@ View the live version [here](https://elisemariehogsnes.netlify.app/)
 git clone https://github.com/elli95/Portfolio.git
 ```
 
-2. Open the folder with a code editor (ex. visual studio code)
+2. Open the folder with a code editor (ex. Visual Studio code)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -73,7 +73,7 @@ Just follow these steps and you are on your way:
 4. Push to the Branch (`git push origin feature/NewFeature`)
 5. Open a Pull Request
 
-If you encounters any issues feel free to post a new post on the issues tab.
+If you encounter any issues feel free to post a new post on the issues tab.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -95,10 +95,10 @@ All image editing was done with [paint.net](https://www.getpaint.net/) and [Fast
 
 Icons were sourced from [Iconify.Design](https://iconify.design/).
 
-Information and inspiration with the creation of the codes came from Noroff's curriculum and various websites linked below.
+Information and inspiration for the creation of the codes came from Noroff's curriculum and various websites linked below.
 
 - [Best README Template](https://github.com/othneildrew/Best-README-Template/blob/master/README.md)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
-[project-screenshot]: images/portfolio-screenshot.webp
+[project-screenshot]: src/images/portfolio-screenshot.webp
