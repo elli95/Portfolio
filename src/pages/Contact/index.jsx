@@ -4,7 +4,7 @@ import { Icon } from "@iconify/react";
 function Contact() {
   return (
     <section className="flex justify-center">
-      <div className="flex flex-col bg-white rounded-lg mt-10 p-4 shadow-card items-center justify-evenly w-11/12">
+      <div className="flex flex-col bg-white rounded-lg mt-10 p-4 shadow-card items-center justify-evenly sm:w-11/12 xl:w-9/12">
         <h2 className="text-3xl p-5">Get in Touch</h2>
         <div className="flex flex-wrap items-center text-xl justify-center gap-14">
           <a href="https://github.com/elli95" target="_blank" rel="noreferrer" className="flex items-center gap-1">

@@ -22,7 +22,7 @@ function Home() {
 
   return (
     <section className="flex justify-center">
-      <div className="flex flex-col items-center bg-white w-11/12 rounded-lg mt-10 p-4 shadow-card justify-evenly">
+      <div className="flex flex-col items-center bg-white rounded-lg mt-10 p-4 shadow-card justify-evenly sm:w-11/12 xl:w-9/12">
         <div className="flex flex-col-reverse items-center lg:flex-row lg:justify-center lg:gap-5">
           <div className="flex flex-col gap-5 text-lg w-11/12 max-w-md text-center sm:flex flex-col gap-5 sm:w-10/12 lg:w-3/5 lg:w-2/5 lg:text-start">
             <h1 className="text-2xl font-semibold">Front-end Developer</h1>
