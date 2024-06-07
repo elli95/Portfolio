@@ -33,7 +33,7 @@ function Projects() {
 
   return (
     <section className="flex flex-col items-center">
-      <h2 className="text-3xl p-5">My projects</h2>
+      <h2 className="text-3xl font-semibold p-5">My projects</h2>
       <ProjectsList />
     </section>
   );
