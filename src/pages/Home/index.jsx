@@ -26,9 +26,9 @@ function Home() {
         <div className="flex flex-col-reverse items-center lg:flex-row lg:justify-center lg:gap-5">
           <div className="flex flex-col gap-5 text-lg w-11/12 max-w-md text-center sm:flex flex-col gap-5 sm:w-10/12 lg:w-3/5 lg:w-2/5 lg:text-start">
             <h1 className="text-2xl font-semibold">Front-end Developer</h1>
-            <p>Hello! I'm Elise Marie Hogsnes, a Front-end Developer with a passion for coding, based in Tønsberg, Norway.</p>
+            <h2>Hello! I'm Elise Marie Hogsnes, a Front-end Developer with a passion for coding, based in Tønsberg, Norway.</h2>
             <div className="flex flex-wrap justify-center lg:justify-start gap-2.5">
-              <a href="https://github.com/elli95" target="_blank" rel="noreferrer" className="flex items-center gap-1 text-3xl">
+              <a href="https://github.com/elli95" target="_blank" rel="noreferrer" className="flex items-center gap-1 text-3xl" aria-label="Github">
                 <Icon icon="icon-park:github" />
               </a>
               <a
@@ -36,6 +36,7 @@ function Home() {
                 target="_blank"
                 rel="noreferrer"
                 className="flex items-center gap-1 text-3xl"
+                aria-label="Linkedin"
               >
                 <Icon icon="devicon:linkedin" />
               </a>
