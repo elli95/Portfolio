@@ -4,8 +4,13 @@ import About from "../../pages/About";
 import Contact from "../../pages/Contact";
 import Projects from "../../pages/Projects";
 import "./App.css";
+import { useEffect } from "react";
 
 function App() {
+  useEffect(() => {
+    document.title = "Elise Marie Hogsnes - Portfolio";
+  }, []);
+
   return (
     <div className="bg-gradient-to-t from-linear-gradient-right to-linear-gradient-left">
       <NavBar />
