@@ -11,6 +11,7 @@ function NavBar() {
   const [showOptionsLang, setShowOptionsLang] = useState(false);
   const [language, setLanguage] = useState("en");
   const menuRef = useRef(null);
+  const buttonRef = useRef(null);
 
   const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
@@ -19,27 +20,18 @@ function NavBar() {
   };
 
   const toggleOptionsMenu = () => {
-    setShowOptionsMenu((prev) => !prev);
+    setShowOptionsMenu(!showOptionsMenu);
   };
 
   const toggleOptionsLang = () => {
-    setShowOptionsLang((prev) => !prev);
+    setShowOptionsLang(!showOptionsLang);
   };
-
-  // const toggleOptionsMenu = () => {
-  //   setShowOptionsMenu(!showOptionsMenu);
-  // };
-
-  // const toggleOptionsLang = () => {
-  //   setShowOptionsLang(!showOptionsLang);
-  // };
 
   const closeMenu = () => {
     setShowOptionsMenu(false);
   };
-
   const handleClickOutside = useCallback((event) => {
-    if (menuRef.current && !menuRef.current.contains(event.target)) {
+    if (menuRef.current && !menuRef.current.contains(event.target) && buttonRef.current && !buttonRef.current.contains(event.target)) {
       closeMenu();
     }
   }, []);
