@@ -19,12 +19,20 @@ function NavBar() {
   };
 
   const toggleOptionsMenu = () => {
-    setShowOptionsMenu(!showOptionsMenu);
+    setShowOptionsMenu((prev) => !prev);
   };
 
   const toggleOptionsLang = () => {
-    setShowOptionsLang(!showOptionsLang);
+    setShowOptionsLang((prev) => !prev);
   };
+
+  // const toggleOptionsMenu = () => {
+  //   setShowOptionsMenu(!showOptionsMenu);
+  // };
+
+  // const toggleOptionsLang = () => {
+  //   setShowOptionsLang(!showOptionsLang);
+  // };
 
   const closeMenu = () => {
     setShowOptionsMenu(false);
