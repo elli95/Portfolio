@@ -73,7 +73,7 @@ function NavBar() {
       <div onClick={toggleOptionsMenu} className="flex cursor-pointer">
         <FontAwesomeIcon icon={faBars} className="fontAwesomeIconStyle menuIcon" />
       </div>
-      <div>
+      <div className="mobileMenu">
         {showOptionsMenu && (
           <nav ref={menuRef} className="flex flex-col justify-center bg-nav-color text-black z-10 text-2xl">
             {navMenue()}
