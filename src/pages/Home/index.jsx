@@ -3,8 +3,11 @@ import profile from "../../images/Elise-Marie-Hogsnes.webp";
 import { Icon } from "@iconify/react";
 import { skillsData } from "../../components/Skills";
 import OpenPDF from "../../components/OpenPDF";
+import { useTranslation } from "react-i18next";
 
 function Home() {
+  const { t } = useTranslation();
+
   const Skills = ({ href, icon, text }) => (
     <a href={href} target="_blank" rel="noreferrer" className="grid justify-items-center w-20 transform transition duration-500 hover:scale-125">
       <Icon icon={icon} className="text-5xl" />
@@ -25,8 +28,8 @@ function Home() {
       <div className="flex flex-col items-center bg-white rounded-lg mt-10 p-4 shadow-card justify-center sm:w-11/12 xl:w-9/12">
         <div className="flex flex-col-reverse items-center lg:flex-row lg:justify-center lg:gap-5">
           <div className="flex flex-col gap-5 text-lg w-11/12 max-w-md text-center sm:flex flex-col gap-5 sm:max-w-435 lg:text-start">
-            <h1 className="text-3xl font-semibold">Front-end Developer</h1>
-            <h2 className="text-xl">Hello! I'm Elise Marie Hogsnes, a Front-end Developer with a passion for coding, based in Tønsberg, Norway.</h2>
+            <h1 className="text-3xl font-semibold">{t("developer")}</h1>
+            <h2 className="text-xl">{t("homeIntroduction")}</h2>
             <div className="flex flex-wrap justify-center lg:justify-start gap-2.5">
               <a href="https://github.com/elli95" target="_blank" rel="noreferrer" className="flex items-center gap-1 text-3xl" aria-label="Github">
                 <Icon icon="icon-park:github" className="transform transition duration-500 hover:scale-125" />

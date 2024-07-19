@@ -1,0 +1,24 @@
+{
+  "tabTitle": "Elise Marie Hogsnes - Portfolio",
+  "developer": "Front-end Developer",
+  "homeIntroduction": "Hello! I'm Elise Marie Hogsnes, a Front-end Developer with a passion for coding, based in Tønsberg, Norway.",
+
+  "about": "About Me",
+  "about1": "Greetings! I'm Elise Marie Hogsnes, a passionate Front-end Developer from Tønsberg, Norway.",
+  "about2": "I am a structured and solution-oriented individual who loves learning new things. With experience in React, Tailwind CSS, and JavaScript that allows me to build dynamic and responsive web applications that surpass user expectations. My skill set also includes CSS, HTML, Figma, WordPress, SASS, and Bootstrap, allowing me to create comprehensive and visually appealing user experiences.",
+  "about3": "When I'm not coding, I enjoy a variety of hobbies and activities that keep me balanced and inspired. I love playing games, engaging in various crafts, and taking leisurely walks in the forest. I also have a passion for cooking and enjoy experimenting with new recipes. During the winter months, I cherish skiing trips with my family, enjoying the beautiful landscapes.",
+  "about4": "I recently graduated in front-end development from Noroff - School of Technology and Digital Media. And I am currently on the lookout for new opportunities to apply my skills to engaging projects and work with other passionate professionals. If you're in need of a front-end developer who is dedicated to excel, let's get in",
+  "aboutLink": "touch!",
+
+  "projects": "My projects",
+  "website": "Website",
+  "holidazeText": "Holidaze is a venue booking platform that streamlines hotel reservations, inquiries, and venue exploration, based on the Semester Project 2 assignment from Noroff.",
+  "jsFrameworksText": "An eCom store built with React, featuring main pages, product page, contact page, a cart, and a checkout success page. based on the JavaScript Frameworks Project from Noroff.",
+  "auctionLockText": "An auction website with a nature-themed design for buying and selling garden tools, farm equipment, and more, based on the Project Exam 2 assignment from Noroff.",
+  "communityScienceText": "This website shows a museum its exhibition and the facilities they offer, based on the Semester Project 1 assignment from Noroff.",
+  "rainyDayText": "This website displays an online store specializing in the sale of outdoor jackets for different weather, based on the Cross Course Project from Noroff.",
+  "cozyCookingText": "This website contains a food blog with a focus on various recipes, based on the Project Exam 1 assignment from Noroff.",
+
+  "contact": "Get in Touch",
+  "contactText": "Got questions, a project, or just want to say hi? Reach out anytime! I'm always eager to discuss new ideas and opportunities!"
+}

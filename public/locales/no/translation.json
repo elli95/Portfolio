@@ -1,0 +1,23 @@
+{
+  "tabTitle": "Elise Marie Hogsnes - Portefølje",
+  "developer": "Front-end Utvikler",
+  "homeIntroduction": "Hei! Jeg er Elise Marie Hogsnes, en Front-end Utvikler med en lidenskap for koding, basert i Tønsberg, Norge.",
+  "about": "Om Meg",
+  "about1": "Hei! Jeg er Elise Marie Hogsnes, en lidenskapelig front-end utvikler fra Tønsberg, Norge.",
+  "about2": "Jeg er en strukturert og løsningsorientert person som elsker å lære nye ting. Med erfaring i React, Tailwind CSS og JavaScript kan jeg bygge dynamiske og responsive webapplikasjoner som overgår brukernes forventninger. Mitt ferdighetssett inkluderer også CSS, HTML, Figma, WordPress, SASS og Bootstrap, som gjør at jeg kan skape omfattende og visuelt tiltalende brukeropplevelser.",
+  "about3": "Når jeg ikke koder, nyter jeg en rekke hobbyer og aktiviteter som holder meg balansert og inspirert. Jeg elsker å spille spill, drive med forskjellige håndverk og ta rolige turer i skogen. Jeg har også en lidenskap for matlaging og liker å eksperimentere med nye oppskrifter. Om vinteren setter jeg pris på skiturer med familien, hvor vi nyter det vakre landskapet.",
+  "about4": "Jeg ble nylig ferdig med utdanningen min i front-end utvikling fra Noroff - School of Technology and Digital Media. Nå er jeg på utkikk etter nye muligheter til å bruke ferdighetene mine på engasjerende prosjekter og jobbe med andre lidenskapelige fagfolk. Hvis du trenger en front-end utvikler som er dedikert til å utmerke seg, ta gjerne",
+  "aboutLink": "kontakt!",
+
+  "projects": "Mine prosjekter",
+  "website": "Nettside",
+  "holidazeText": "Holidaze er en plattform for bestilling av lokaler som forenkler hotellreservasjoner, forespørsler og utforskning av lokaler, basert på Semesterprosjekt 2-oppgaven fra Noroff.",
+  "jsFrameworksText": "En e-handelsbutikk bygget med React, med hovedsider, produktside, kontaktside, en handlekurv og en kassesuksessside. basert på JavaScript Frameworks-prosjektet fra Noroff.",
+  "auctionLockText": "En auksjonsnettsted med et naturtema for kjøp og salg av hageredskaper, landbruksutstyr og mer, basert på Project Exam 2-oppgaven fra Noroff.",
+  "communityScienceText": "Dette nettstedet viser et museum, dets utstillinger og fasilitetene de tilbyr, basert på Semesterprosjekt 1-oppgaven fra Noroff.",
+  "rainyDayText": "Dette nettstedet viser en nettbutikk som spesialiserer seg på salg av utendørsjakker for forskjellige værforhold, basert på Cross Course Project fra Noroff.",
+  "cozyCookingText": "Dette nettstedet inneholder en matblogg med fokus på ulike oppskrifter, basert på Project Exam 1-oppgaven fra Noroff.",
+
+  "contact": "Kontakt Meg",
+  "contactText": "Har du spørsmål, et prosjekt, eller vil du bare si hei? Ta kontakt når som helst! Jeg er alltid ivrig etter å diskutere nye ideer og muligheter!"
+}

@@ -1,8 +1,18 @@
 import React from "react";
+import { useTranslation } from "react-i18next";
 
 function OpenPDF() {
+  const { i18n } = useTranslation();
+
   const openCV = () => {
-    window.open(`${process.env.PUBLIC_URL}/cv/Elise Marie Hogsnes - CV.pdf`, "_blank");
+    const language = i18n.language;
+    let cvFile = "Elise Marie Hogsnes - CV.pdf";
+
+    if (language === "no") {
+      cvFile = "Elise Marie Hogsnes - CV_NO.pdf";
+    }
+
+    window.open(`${process.env.PUBLIC_URL}/cv/${cvFile}`, "_blank");
   };
 
   return (

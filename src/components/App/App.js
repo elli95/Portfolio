@@ -5,11 +5,14 @@ import Contact from "../../pages/Contact";
 import Projects from "../../pages/Projects";
 import "./App.css";
 import { useEffect } from "react";
+import { useTranslation } from "react-i18next";
 
 function App() {
+  const { t } = useTranslation();
+
   useEffect(() => {
-    document.title = "Elise Marie Hogsnes - Portfolio";
-  }, []);
+    document.title = t("tabTitle");
+  }, [t]);
 
   return (
     <div className="bg-gradient-to-t from-linear-gradient-right to-linear-gradient-left">

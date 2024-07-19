@@ -1,19 +1,69 @@
-nav {
+header {
   position: fixed;
+  display: flex;
+  justify-content: space-evenly;
   top: 0;
   width: 100%;
   background: #333;
   padding: 1em;
+  z-index: 10;
+}
+
+.navMenuBig {
+  display: none;
 }
 
 nav ul {
+  position: absolute;
   display: flex;
   list-style-type: none;
   justify-content: space-around;
   margin: 0;
   padding: 0;
+  /* gap: 115px; */
+  width: 100%;
+  top: 55px;
+  left: 0;
+  text-align: center;
+  gap: 60px;
+  padding: 30px;
 }
 
 nav a:hover {
   text-decoration: underline;
+}
+
+.language {
+  display: flex;
+  flex-direction: column;
+  z-index: 10;
+  position: absolute;
+  top: 55px;
+  padding: 5px 25px;
+  margin-top: 2px;
+  gap: 6px;
+  border-radius: 5px;
+  box-shadow: 2px 4px 3px #000, -2px 4px 3px #000;
+}
+
+.fontAwesomeIconStyle {
+  align-self: center;
+  font-size: 30px;
+}
+
+@media (min-width: 800px) {
+  .menuIcon {
+    display: none;
+  }
+
+  .navMenuBig,
+  .navMenuBig ul {
+    display: flex;
+  }
+
+  .navMenuBig ul {
+    flex-direction: row;
+    position: inherit;
+    padding: unset;
+  }
 }
