@@ -1,3 +1,33 @@
-@tailwind base;
+@import "tailwindcss";
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
+
+@theme {
+  --spacing-435: 435px;
+  --spacing-460: 460px;
+  --spacing-500: 500px;
+  --spacing-1580: 1580px;
+
+  --color-nav-color: #e4d1ff;
+  --color-linear-gradient-left: #c8b2ef;
+  --color-linear-gradient-right: #a7e3fa;
+
+  --me-center: 0px -40px;
+
+  --shadow-card: 0px 5px 10px black;
+  --shadow-header: 2px 2px 5px black;
+  /* maxWidth: {
+        435: "435px",
+        460: "460px",
+        500: "500px",
+        1580: "1580px",
+      },
+      objectPosition: {
+        "me-center": "0px -40px",
+      },
+      boxShadow: {
+        card: "0px 5px 10px black",
+        header: "2px 2px 5px black",
+      }, */
+}

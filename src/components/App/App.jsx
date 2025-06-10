@@ -16,6 +16,7 @@ function App() {
 
   return (
     <div className="bg-gradient-to-t from-linear-gradient-right to-linear-gradient-left">
+      {/* <div className="bg-gradient-to-r from-indigo-500 via-purple-500 to-pink-500"> */}
       <NavBar />
       <div id="home">
         <Home />

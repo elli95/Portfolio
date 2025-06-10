@@ -29,6 +29,7 @@ function Home() {
         <div className="flex flex-col-reverse items-center lg:flex-row lg:justify-center lg:gap-5">
           <div className="flex flex-col gap-5 text-lg w-11/12 max-w-md text-center sm:flex flex-col gap-5 sm:max-w-435 lg:text-start">
             <h1 className="text-3xl font-semibold">{t("developer")}</h1>
+
             <h2 className="text-xl">{t("homeIntroduction")}</h2>
             <div className="flex flex-wrap justify-center lg:justify-start gap-2.5">
               <a href="https://github.com/elli95" target="_blank" rel="noreferrer" className="flex items-center gap-1 text-3xl" aria-label="Github">
@@ -46,8 +47,8 @@ function Home() {
               <OpenPDF />
             </div>
           </div>
-          <div className="rounded-full h-52 w-52 overflow-hidden lg:h-80 lg:w-80">
-            <img className="object-center object-me-center" src={profile} alt="Elise Marie Hogsnes" />
+          <div className="rounded-full h-40 w-40 overflow-hidden lg:h-80 lg:w-80">
+            <img className="object-(--me-center)" src={profile} alt="Elise Marie Hogsnes" />
           </div>
         </div>
         <p className="text-lg pt-5 pb-2.5 font-semibold">| Tech Stack |</p>
